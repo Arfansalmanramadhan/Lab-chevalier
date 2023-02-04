@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/css.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top ">
+
+        <div class="container">
+            <a class="navbar-brand" href="#">Arfan Salman Ramadhan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="jumbotron text-center bg-body-tertiary">
+        <section class="container">
+            <img src="img/1.jpg" alt="Arfan Salman Ramadhan" class="rounded-circle border border-4 border-secondary" />
+            <h1 class="display-4">Arfan Salman Ramadhan</h1>
+            <p class="lead ">Mahasiswa </p>
+        </section>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#ffffff" fill-opacity="10"
+                d="M0,64L48,80C96,96,192,128,288,128C384,128,480,96,576,80C672,64,768,64,864,96C960,128,1056,192,1152,186.7C1248,181,1344,107,1392,69.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col" data-aos="fade-down">
+                    <h2>About me</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center fs-5 text-center">
+                <section class="col-md-4">
+                    <p>Saya kuliah di Telkom University jurusan D3 Teknologi Telekomunikasi. Selama di kampus saya
+                        aktif beroganisasi himpunan sebagai BPM (Badan Perwakilan Mahasiswa) dan aktif di Lab Chevalier
+                        di
+                        divisi Web developer sebagai member</p>
+                </section>
+                <section class="col-md-4">
+                    <li class="nav-item dropdown ">
+                        <a class="btn btn-primary  dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">Portofolio</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="btn btn-primary stretched-link m-2" href="http://trihijab.rf.gd/"
+                                    target="_blank">Website
+                                    Kerudung</a></li>
+                            <li><a class="btn btn-primary stretched-link m-2"
+                                    href="https://github.com/Arfansalmanramadhan" target="_blank">GitHub
+                                    Me</a></li>
+                        </ul>
+                    </li>
+                </section>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#e2edff" fill-opacity="10"
+                d="M0,96L48,122.7C96,149,192,203,288,192C384,181,480,107,576,80C672,53,768,75,864,101.3C960,128,1056,160,1152,165.3C1248,171,1344,149,1392,138.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+
+
+    <section id="contact">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>Contact Me</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form name="form">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nama Lengkap</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="pesan" class="form-label">Pesan</label>
+                            <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#0d6efd" fill-opacity="10"
+                d="M0,128L30,149.3C60,171,120,213,180,224C240,235,300,213,360,192C420,171,480,149,540,160C600,171,660,213,720,197.3C780,181,840,107,900,101.3C960,96,1020,160,1080,197.3C1140,235,1200,245,1260,234.7C1320,224,1380,192,1410,176L1440,160L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+
+    <footer class="bg-primary text-white text-center pb-5">
+        <p><i class="bi bi-heart-fill text-danger"></i> by <a
+                href="https://instagram.com/arfansalman_r?igshid=NmQ2ZmYxZjA=" target="_blank"
+                class="text-white fw-bold">Arfan Salman
+                Ramadhan</a></p>
+    </footer>
+    <!-- sumber https://github.com/sandhikagalih/sandhikagalih.github.io/blob/main/index.html -->
+    <script>
+        const fromm = document.forms["form"]
+        fromm.addEventListener("submit", e => {
+            e.preventDefault()
+            const nama = document.forms["form"]["nama"].value;
+
+            alert(`Persan ${nama} telah di kirim`);
+            fromm.reset()
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

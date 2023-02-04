@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+:root {
+    --red: red 
+
+}
+body {
+    background-color: var(--red);
+}
+.color-primary{
+    color: rgb(245, 230, 19);
+}
+.color-primary:hover{
+    color: rgb(184, 172, 8);
+}
+img {
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#layanan {
+    background-color: #fff;
+}
+.card{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+#kontak {
+    background-image: url(/assets/img/img-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}

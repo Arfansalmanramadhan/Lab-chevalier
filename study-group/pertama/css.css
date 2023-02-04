@@ -1,0 +1,28 @@
+.container {
+    max-width: 800;
+    margin: 50px auto;
+    text-align: center;
+}
+p {
+    color: rgb(0, 255, 34);
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+a:visited {
+    color: black;
+}
+ul, li {
+    display: inline;
+    list-style: none;
+}
+nav {
+    background-color: red;
+}
+.pertama  {
+    color: blue;
+}
+.data {
+    color: aqua;
+}
